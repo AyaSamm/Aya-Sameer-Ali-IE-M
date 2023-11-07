@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Discussion 3</title>
+</head>
+<body>
+  <article>
+    <h1><u>Discussion</u></h1>
+    <section>
+      <h2>1. Not recommended to use tables for HTML layout, why?</h2>
+      <p>HTML tables were originally intended to be used for presenting tabular data, not for layout.</p>
+      <ul>
+        <li>Tables shouldn't be used for page layouts because they are:</li>
+        <li>Slow to render as the browser needs to download most - if not all - of the table to render it properly</li>
+        <li>They require more HTML than non-table layouts, which means slower loading and rendering, as well as increased bandwidth usage</li>
+        <li>They can be a nightmare to maintain as they can quickly get complex</li>
+        <li>They can break text copying</li>
+        <li>They negatively affect screen readers and may make your content inaccessible to some users</li>
+        <li>They are not as flexible as using proper semantic markup</li>
+        <li>They were never intended to be used for page layouts</li>
+        <li>Making tables into a responsive layout is very difficult to control</li>
+      </ul>
+      <p>In summary, while tables have their place in HTML for displaying tabular data, they should not be used for general page layout. It's generally recommended to use HTML elements and CSS for layout purposes to ensure better accessibility, maintainability, responsiveness, and adherence to web standards.</p>
+    </section>
+
+    <section>
+      <h2>2. Rewrite the above code in the “2. Procedure section” using semantic elements and attributes but without using the tables and CSS</h2>
+     
+      <!DOCTYPE html>
+<html>
+<head>
+  <title>HTML Layout without Tables and CSS</title>
+</head>
+<body>
+  <header>
+    <h1>Front-End Development Course</h1>
+  </header>
+
+  <nav>
+    <h2>Main Menu</h2>
+    <ul >
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+    </ul>
+  </nav>
+
+  <section>
+    <p>In this lab, students will study the Front-End Development course.</p>
+    <img src="1.jfif" alt="pic" style="width: 50%;">
+  </section>
+
+  <footer>
+    <p> Copyright © 2023 Web Programming LAB</p>
+  </footer>
+</body>
+</html>
+
+    </section>
+  </article>
+</body>
+</html>
