@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Discussion 5</title>
+  <style>
+    body {
+      background: linear-gradient(to bottom, navy, skyblue);
+      color: white;
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    .discussion {
+      background: rgba(0, 0, 0, 0.5);
+      padding: 20px;
+      border-radius: 10px;
+      margin: 20px;
+    }
+
+    h1 {
+      font-size: 24px;
+      border-bottom: 2px solid white;
+      padding-bottom: 10px;
+    }
+
+    h2 {
+      font-size: 24px;
+    }
+
+    ul {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="discussion">
+    <h1>What are the limitations of CSS?</h1>
+    <ul>
+      <li>Lack of Variables: CSS lacks built-in support for variables, resulting in code duplication and increased maintenance effort.</li>
+      <li>Global Scope: CSS operates in a global scope by default, leading to style conflicts and unintended side effects.</li>
+      <li>Limited Dynamic Styling: CSS is primarily designed for static styling and has limited capabilities for handling dynamic changes.</li>
+      <li>Limited Layout Control: While CSS has advanced layout capabilities, achieving complex layouts can still be challenging, especially for vertical centering and equal-height columns.</li>
+      <li>Browser Compatibility: Different browsers may interpret and render CSS rules differently, causing inconsistencies in appearance.</li>
+      <li>Lack of Calculation and Expressiveness: CSS has limited mathematical and logical capabilities, restricting flexibility and expressiveness.</li>
+      <li>Print and Page Control: CSS provides basic support for print stylesheets but lacks fine-grained page layout control.</li>
+      <li>Performance Impact: CSS performance can be affected by large and complex stylesheets, leading to slower rendering and increased page load times.</li>
+    </ul>
+  </div>
+
+  <div class="discussion">
+    <h2>How many ways can CSS be integrated as a web page?</h2>
+    <ul>
+      <li><strong>Internal Style Sheet:</strong> Defined within an HTML page. Requires the use of the &lt;style&gt; element within the &lt;head&gt; section of the HTML document.</li>
+      <li><strong>External Style Sheet:</strong> Exists as a separate file with a ".css" extension. Linked to an HTML document using the &lt;link&gt; element. Allows you to change the styling of an entire website by modifying a single CSS file.</li>
+      <li><strong>Inline CSS:</strong> Has the highest priority among the three CSS methods (external, internal, and inline). Applied directly to HTML elements as attributes. Overrides styles defined in external or internal CSS, but it's recommended to use it sparingly.</li>
+    </ul>
+    <p>In summary, these three methods offer different ways to apply CSS styles to web content, each with its own use cases and priorities.</p>
+  </div>
+</body>
+</html>
